@@ -7,6 +7,7 @@ import Home from '../Pages/Home'
 import Services from '../Pages/Services'
 import Contact from '../Pages/Contact'
 import About from '../Pages/About'
+import Moreinfo from '../Pages/Moreinfo'
 function Navbar() {
     return (
         <div>
@@ -67,6 +68,18 @@ function Navbar() {
                             </Typography>
                         </Link>
 
+                        <Link to="moreinfo" className='hi'>
+                            <Typography >
+                                <Tooltip title="Contact" sx={{ padding: "0px" }}>
+                                    {/* <IconButton color='inherit' sx={{ padding: "0px", fontSize: "17px" }}>
+                                Contact
+                                <HomeIcon fontSize='large' sx={{ padding: "0px" }} />
+                            </IconButton> */}
+                                    <Button variant='text' color='inherit' sx={{ fontSize: "17px" }}>Moreinfo</Button>
+
+                                </Tooltip>
+                            </Typography>
+                        </Link>
                     </Container>
                 </AppBar>
                 <Routes>
@@ -74,6 +87,7 @@ function Navbar() {
                     <Route path='services' element={<Services />} />
                     <Route path='contact' element={<Contact />} />
                     <Route path='about' element={<About />} />
+                    <Route path='moreinfo' element={<Moreinfo/>} />
                 </Routes>
             </Router>
         </div>

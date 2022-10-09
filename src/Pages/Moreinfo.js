@@ -1,11 +1,11 @@
 import React from 'react'
 import '../App.css'
 import { Grid, Typography } from '@mui/material'
-function Contact() {
-  console.log("Helodjksnhkbjgdvnb");
+
+function Moreinfo() {
   return (
     <div className="App">
-      <h1>Contact us</h1>
+       <h1>Contact us</h1>
       <Grid container >
         <Grid items lg={12}>
           <Typography variant='p' align='center' sx={{ color: "crimson" }}>Contact us</Typography>
@@ -20,12 +20,11 @@ function Contact() {
             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
         </Grid>
         <Grid item lg={5}>
-          <img width={550} height={400} src='https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' />
+          <img width={550} height={400} src='https://media.istockphoto.com/photos/more-info-alphabet-letter-with-space-copy-on-red-glitter-background-picture-id1204353748?s=612x612' />
         </Grid>
       </Grid>
     </div>
   )
-
 }
 
-export default Contact
+export default Moreinfo
