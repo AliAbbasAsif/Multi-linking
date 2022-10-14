@@ -81,6 +81,18 @@ function Navbar() {
                                 </Tooltip>
                             </Typography>
                         </Link>
+                        <Link to="dashboard/*" className='hi'>
+                            <Typography >
+                                <Tooltip title="Contact" sx={{ padding: "0px" }}>
+                                    {/* <IconButton color='inherit' sx={{ padding: "0px", fontSize: "17px" }}>
+                                Contact
+                                <HomeIcon fontSize='large' sx={{ padding: "0px" }} />
+                            </IconButton> */}
+                                    <Button variant='text' color='inherit' sx={{ fontSize: "17px" }}>Dashboard</Button>
+
+                                </Tooltip>
+                            </Typography>
+                        </Link>
                     </Container>
                 </AppBar>
                 <Routes>
