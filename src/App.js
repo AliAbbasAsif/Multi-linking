@@ -20,7 +20,7 @@ function App() {
       
       <header className="App-header">
       </header>
-      <BottomNavigation sx={{ width: "100%" }} value={value} onChange={handleChange}>
+      {/* <BottomNavigation sx={{ width: "100%" }} value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="Recents"
         value="recents"
@@ -37,7 +37,7 @@ function App() {
         icon={<LocationOnIcon />}
       />
       <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} />
-    </BottomNavigation>
+    </BottomNavigation> */}
     </div>
   );
 }

@@ -8,6 +8,7 @@ import Services from '../Pages/Services'
 import Contact from '../Pages/Contact'
 import About from '../Pages/About'
 import Moreinfo from '../Pages/Moreinfo'
+import Dashboard from '../Pages/Dashboard/Dashboard'
 function Navbar() {
     return (
         <div>
@@ -83,6 +84,7 @@ function Navbar() {
                     </Container>
                 </AppBar>
                 <Routes>
+                <Route path="dashboard/*" element={<Dashboard />} />
                     <Route path='/' element={<Home />} />
                     <Route path='services' element={<Services />} />
                     <Route path='contact' element={<Contact />} />
